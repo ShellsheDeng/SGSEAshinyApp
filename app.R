@@ -256,7 +256,7 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 
 
-# deploy
+# For deploy
 # the R PROJECT  that opens app.R should be within the same file(same getwd())
 #library(rsconnect)
 #rsconnect::deployApp("/Users/shellshe/Desktop/Research/SGSEAPaper/sgseaShiny/SGSEAapp")
