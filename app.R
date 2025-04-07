@@ -260,5 +260,6 @@ shinyApp(ui = ui, server = server)
 # the R PROJECT  that opens app.R should be within the same file(same getwd())
 #library(rsconnect)
 #rsconnect::deployApp("/Users/shellshe/Desktop/Research/SGSEAPaper/sgseaShiny/SGSEAapp")
-
+# for initial commit
+#usethis::use_git_remote("origin", "https://github.com/ShellsheDeng/SGSEAshinyApp.git")
 
